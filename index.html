@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Diri | Nabilah Safawani</title>
+    <meta name="description" content="Halaman profil diri Nabilah Safawani, mahasiswa yang sedang mempelajari pengembangan aplikasi web.">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Profil Diri | Nabilah Safawani">
+    <meta property="og:description" content="Halaman profil diri Nabilah Safawani.">
+    <meta property="og:image" content="foto.jpg">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f4f6f8;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #111827;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+
+        h3 {
+            margin: 15px 0 8px;
+            color: #374151;
+        }
+
+        .profil {
+            text-align: center;
+        }
+
+        .profil img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .biodata {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .biodata li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #e5e7eb;
+        }
+
+        a {
+            color: #2563eb;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 0 12px;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Profil Diri</h1>
+        <p>Mahasiswa Pengembangan Aplikasi Web</p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <a href="#profil">Profil</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#kuliah">Mata Kuliah</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+        <section id="profil" class="profil">
+            <h2>Tentang Saya</h2>
+
+            <!-- Ganti foto.jpg dengan nama file foto kamu -->
+            <img src="foto.jpg" alt="Foto profil Nabilah Safawani">
+
+            <h3>Nabilah Safawani</h3>
+            <p>
+                Saya adalah mahasiswa yang sedang mempelajari bidang teknologi informasi,
+                khususnya pengembangan aplikasi web dan teknologi komputasi.
+            </p>
+        </section>
+
+        <section id="biodata">
+            <h2>Biodata</h2>
+
+            <ul class="biodata">
+                <li><strong>Nama:</strong> Nabilah Safawani</li>
+                <li><strong>NIM:</strong> [Masukkan NIM]</li>
+                <li><strong>Program Studi:</strong> [Masukkan Program Studi]</li>
+                <li><strong>Universitas:</strong> UIN Sunan Gunung Djati Bandung</li>
+                <li><strong>Semester:</strong> 5</li>
+                <li><strong>Minat:</strong> Web Development, Cloud Infrastructure, Automation</li>
+            </ul>
+        </section>
+
+        <section id="kuliah">
+            <h2>Mata Kuliah Semester Ini</h2>
+
+            <h3>Daftar Mata Kuliah</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Mata Kuliah</th>
+                        <th>Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pengembangan Aplikasi Web</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Inteligensia Buatan</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Interaksi Manusia dan Komputer</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>[Mata Kuliah Lain]</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak dan Tautan</h2>
+            <p>
+                Kamu dapat menambahkan tautan media sosial atau portofolio di bagian ini.
+            </p>
+
+            <p>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nabilah Safawani. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>
